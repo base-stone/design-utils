@@ -1,0 +1,56 @@
+{
+  "name": "@base-stone/librarys",
+  "license": "MIT",
+  "version": "0.1.3",
+  "author": {
+    "name": "base-stone",
+    "email": "leafront@126.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/base-stone/design-librarys.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "./dist/design-librarys.es.prod.js",
+  "module": "./dist/design-librarys.es.prod.js",
+  "exports": {
+    ".": {
+      "import": "./dist/design-librarys.es.prod.js",
+      "types": "./dist/design-librarys.es.prod.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "homepage": "https://github.com/base-stone/design-librarys",
+  "scripts": {
+    "build:prod": "vite build",
+    "build:publish": "npm run build:prod && npm publish",
+    "eslint": "eslint --fix ./src --ext ts",
+    "prettier": "prettier --write \"./src/**/*.ts\"",
+    "lint:js": "npm run eslint && npm run prettier"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.23.5",
+    "@microsoft/api-extractor": "^7.38.3",
+    "@types/node": "^20.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/compiler-sfc": "^3.3.9",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue": "^9.19.2",
+    "prettier": "^3.1.0",
+    "rollup-plugin-shell": "^1.0.9",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.5",
+    "vite-plugin-dts": "^3.6.4"
+  }
+}
