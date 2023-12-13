@@ -6,8 +6,6 @@ module.exports = {
     node: true
   },
   extends: [
-    'prettier',
-    'plugin:prettier/recommended',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -18,7 +16,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint'],
   rules: {
     'no-useless-escape': 'off',
     'no-irregular-whitespace': 'off',
