@@ -22,9 +22,8 @@ export default defineConfig({
     lib: {
       entry: './src/main.ts',
       name: 'librarys',
-      fileName: (format: string) => {
-        format = format.replace(/umd/, 'global')
-        return `design-librarys.${format}.prod.js`
+      fileName: () => {
+        return `design-librarys.es.prod.js`
       },
       formats: ['es']
     },

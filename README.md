@@ -1,4 +1,4 @@
-pnpm install -D @base-stone/vue
+pnpm install -D @base-stone/librarys
 https://unpkg.com/@base-stone/librarys
 
 
