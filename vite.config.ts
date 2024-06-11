@@ -21,9 +21,9 @@ export default defineConfig({
     },
     lib: {
       entry: './src/main.ts',
-      name: 'librarys',
+      name: 'utils',
       fileName: () => {
-        return `design-librarys.es.prod.js`
+        return `design-utils.es.prod.js`
       },
       formats: ['es']
     },
