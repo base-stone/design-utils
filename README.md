@@ -1,4 +1,4 @@
-pnpm install -D @base-stone/librarys
+pnpm add @base-stone/librarys
 https://unpkg.com/@base-stone/librarys
 
 

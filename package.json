@@ -1,7 +1,7 @@
 {
-  "name": "@base-stone/librarys",
+  "name": "@base-stone/utils",
   "license": "MIT",
-  "version": "0.1.5",
+  "version": "0.1.1",
   "author": {
     "name": "base-stone",
     "email": "leafront@126.com"
@@ -11,23 +11,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/base-stone/design-librarys.git"
+    "url": "git+https://github.com/base-stone/design-utils.git"
   },
   "files": [
     "dist",
     "README.md"
   ],
   "type": "module",
-  "main": "./dist/design-librarys.es.prod.js",
-  "module": "./dist/design-librarys.es.prod.js",
+  "main": "./dist/design-utils.es.prod.js",
+  "module": "./dist/design-utils.es.prod.js",
   "exports": {
     ".": {
-      "import": "./dist/design-librarys.es.prod.js",
-      "types": "./dist/design-librarys.es.prod.d.ts"
+      "import": "./dist/design-utils.es.prod.js",
+      "types": "./dist/design-utils.es.prod.d.ts"
     },
     "./package.json": "./package.json"
   },
-  "homepage": "https://github.com/base-stone/design-librarys",
+  "homepage": "https://github.com/base-stone/design-utils",
   "scripts": {
     "build:prod": "vite build",
     "build:publish": "npm run build:prod && npm publish",
