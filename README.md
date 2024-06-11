@@ -1,5 +1,4 @@
-pnpm add @base-stone/librarys
-https://unpkg.com/@base-stone/librarys
+pnpm add @base-stone/utils
 
 
 ## 常规项目代码目录
