@@ -1,14 +1,10 @@
 pnpm add @base-stone/utils
-
+https://unpkg.com/@base-stone/utils
 
 ## 常规项目代码目录
 
 ```
-├── fun.ts
 ├── main.ts
-├── request.ts
-├── store.ts
-└── utils.ts
     
 ```
 
