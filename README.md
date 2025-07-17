@@ -4,7 +4,7 @@ https://unpkg.com/@base-stone/utils
 ## 常规项目代码目录
 
 ```
-├── main.ts
+├── main.tsx
     
 ```
 
